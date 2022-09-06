@@ -4,7 +4,6 @@
  * bubble_sort - bubble sort algorithms
  * @size: size input
  * @array: pointer input
- * 
  * Return: No Return
  */
 
@@ -13,7 +12,9 @@ void bubble_sort(int *array, size_t size)
 	unsigned int i, n, swap;
 
 	if (size < 2)
+    {
 	    return;
+    }
 
 	for (i = 0; i < size - 1; i++)
 	{
