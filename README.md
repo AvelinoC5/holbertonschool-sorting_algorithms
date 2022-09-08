@@ -9,6 +9,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
  * How to select the best sorting algorithm for a given input
  * What is a stable sorting algorithm
 
+## TASKS 
 ### 0. Bubble sort 
 Prototype: void bubble_sort(int *array, size_t size);
 
