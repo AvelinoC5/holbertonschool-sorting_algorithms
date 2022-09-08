@@ -25,8 +25,7 @@ void quick_sort(int *array, size_t size)
  */
 void quick(int *array, int lo, int hi, size_t size)
 {
-	int pivot, i = lo -1, j;
-   	int partition = array[hi], aux = 0;
+	int pivot, i = lo - 1, j, partition = array[hi], aux = 0;
 	if (lo < hi)
 	{
 		for (j = lo; j < hi; j++)
@@ -53,5 +52,5 @@ void quick(int *array, int lo, int hi, size_t size)
 		pivot = i + 1;
 		quick(array, lo, pivot - 1, size);
 		quick(array, pivot + 1, hi, size);
-    }
+	}
 }
